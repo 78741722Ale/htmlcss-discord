@@ -43,6 +43,18 @@ body {
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
+.Back {
+    background-color: var(--Back);
+    width: 100vw;
+    height: 550px;
+}
+
+.Back-tech {
+    background-color: var(--Back);
+    width: 100vw;
+    height: 900px;
+}
+
 /******
 Header e tutto il suo correlato 
 *********/
@@ -283,18 +295,12 @@ Main e tutto il suo correlato
 
 /* Sezione Fandom */
 
-.Back {
-    background-color: var(--Back);
-    width: 100vw;
-    height: 550px;
-}
-
 .Fandom {
     margin: auto;
     position: relative;
     width: 1200px;
     height: 550px;
-    margin-bottom: 7%;
+    margin-bottom: 12%;
 }
 
 .Text_Fandom {
@@ -314,6 +320,81 @@ Main e tutto il suo correlato
 .Text_Fandom p {
     font-size: 1rem;
     line-height: 1.5rem;
+}
+
+/* Sezione Technology */
+
+.Tech {
+    margin: auto;
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin-bottom: 5%;
+}
+
+.Tech img {
+    position: absolute;
+    width: 75%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);   
+}
+
+.Tech-Text {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 850px;
+    height: max-content;
+    transform: translate(-50%);
+    z-index: 1;
+}
+
+.Tech-Text h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    padding-bottom: 10px;
+}
+
+.Tech-Text p {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.Tech-Text-under {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    width: 850px;
+    height: max-content;
+    transform: translate(-50%);
+}
+
+.Tech-Text-under h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 25px;
+}
+
+.btn_dwnl2 {
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    height: 45px;
+    transform: translate(-50%);
+}
+
+.btn_dwnl_style2 {
+    border-radius: 25px;
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    border: 0 solid white;
+    background-color: rgba(29, 137, 209, 0.5);
 }
 
 /******
