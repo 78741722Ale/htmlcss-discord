@@ -36,10 +36,9 @@ Commons
     display: table;  
 }
 
-
 .row2 {
     width: 100%;
-    height: 100%;
+    height: 750px;
     position: absolute;
 }
 
@@ -66,6 +65,12 @@ body {
     background-color: var(--Back);
     width: 100vw;
     height: 900px;
+}
+
+.Back_Footer {
+    background-color: black;
+    width: 100vw;
+    height: 750px;
 }
 
 /******
@@ -341,7 +346,6 @@ Main e tutto il suo correlato
     position: relative;
     width: 1200px;
     height: 100%;
-    margin-bottom: 5%;
 }
 
 .Tech img {
@@ -413,14 +417,9 @@ Main e tutto il suo correlato
 Footer e tutto il suo correlato 
 *********/
 
-.Back_Footer {
-    background-color:rgba(0, 0, 0, 0.425);
-    width: 100vw;
-    height: 750px;
-}
-
 .Footer {
-    margin: auto;
+    top: 10%;
+    margin: 0 auto;
     position: relative;
     width: 1200px;
     height: 100%;
@@ -429,23 +428,36 @@ Footer e tutto il suo correlato
 /* Colonna con Marchi social e bandiera ita  */
 
 .lg_25 {
-    background-color: aliceblue;
     position: relative;
     float: left;
-    height: 50%;
     width: 25%;
+}
+
+.lg_25 img {
+    width: 25px;
+}
+
+.Span_Footer {
+    color: white;
+    font-size: 0.65rem;
+    line-height: 25px;
+}
+
+.lg_25 h2 {
+    color: rgba(29, 137, 209, 0.7);
+    width: 200px;
+    padding-bottom: 15px;
+    font-size: 1.5rem;
 }
 
 /* Colonna con tutti i collegamenti  */
 
-.lg_15{
-    background-color: rgb(21, 144, 252);
+.lg_15 {
     position: relative;
     float: left;
-    height: 50%;
     width: 15%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .Li_title {
@@ -453,5 +465,10 @@ Footer e tutto il suo correlato
     font-weight: bold;
 }
 
-
+.lg_15 ul {
+    list-style:none;
+    line-height: 2.0rem;
+    font-size: 0.8rem;
+    color: white;
+}
 
