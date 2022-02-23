@@ -36,6 +36,19 @@ Commons
     display: table;  
 }
 
+
+.row2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;  
+}
+
 body {
     background-color: var(--Body);
     width: 100vw;
@@ -300,7 +313,6 @@ Main e tutto il suo correlato
     position: relative;
     width: 1200px;
     height: 550px;
-    margin-bottom: 12%;
 }
 
 .Text_Fandom {
@@ -400,3 +412,46 @@ Main e tutto il suo correlato
 /******
 Footer e tutto il suo correlato 
 *********/
+
+.Back_Footer {
+    background-color:rgba(0, 0, 0, 0.425);
+    width: 100vw;
+    height: 750px;
+}
+
+.Footer {
+    margin: auto;
+    position: relative;
+    width: 1200px;
+    height: 100%;
+}
+
+/* Colonna con Marchi social e bandiera ita  */
+
+.lg_25 {
+    background-color: aliceblue;
+    position: relative;
+    float: left;
+    height: 50%;
+    width: 25%;
+}
+
+/* Colonna con tutti i collegamenti  */
+
+.lg_15{
+    background-color: rgb(21, 144, 252);
+    position: relative;
+    float: left;
+    height: 50%;
+    width: 15%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.Li_title {
+    color: rgba(29, 137, 209, 0.7);
+    font-weight: bold;
+}
+
+
+
