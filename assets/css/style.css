@@ -21,6 +21,20 @@ Tabella Colori
 Commons
 ***********/
 
+/* Regola Row e clearfix */
+
+.row {
+    width: 100%;
+    height: 520px;
+    position: absolute;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;  
+}
+
 body {
     background-color: var(--Body);
     width: 100vw;
@@ -36,6 +50,7 @@ Header e tutto il suo correlato
     position: relative;
     width:100%;
     height: 550px;
+    background-size: cover;
 }
 
 .hero {
@@ -139,7 +154,7 @@ Header e tutto il suo correlato
     padding-bottom: 15px;
     margin: 0 auto;
     text-align: center;
-    line-height: 1.5rem;
+    line-height: 1.75rem;
     color: white;
     font-size: 1rem;
 }
@@ -148,7 +163,7 @@ Header e tutto il suo correlato
     padding-bottom: 30px;
     text-align: center;
     color: white;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .Text_Head {
@@ -168,10 +183,10 @@ Main e tutto il suo correlato
 
 .Study {
     margin: auto;
-    margin-top: 10px;
     position: relative;
     width: 1200px;
     height: 550px;
+    margin-bottom: 5%;
 }
 /* Colonna da 60% con sua immagine */
 
@@ -181,9 +196,8 @@ Main e tutto il suo correlato
     background-repeat: no-repeat;
     object-fit: contain;
     left: 50%;
-    top: 5%;
-    transform: translate(-35%);
-    
+    top: 50%;
+    transform: translate(-50% , -50%);   
 }
 
 .lg_60 {
@@ -191,29 +205,66 @@ Main e tutto il suo correlato
     float: left;
     height: 100%;
     width: 60%;
-    background-color: rgba(100, 245, 33, 0.295);
 }
 
 /* Colonna da 40% */
 
 .lg_40 {
+    position: relative;
     float: left;
     height: 100%;
     width: 40%;
-    background-color: rgba(0, 255, 255, 0.253);
 }
 
-.row {
-    width: 100%;
-    height: 520px;
+.Text_Study {
+    top: 50%;
+    left: 25%;
     position: absolute;
+    width: 60%;
+    height: max-content;
+    transform: translate(-25%,-43%);
 }
 
-.clearfix::after{
-    content: "";
-    clear: both;
-    display: table;  
+.Text_Study h2 {
+    font-size: 2.5rem;
+    padding-bottom: 10px;
 }
+
+.Text_Study p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+/* Sezione Trovarsi */
+
+.Find {
+    margin: auto;
+    position: relative;
+    width: 1200px;
+    height: 550px;
+    margin-bottom: 7%;
+}
+
+.Text_Find {
+    top: 32%;
+    left: 25%;
+    position: absolute;
+    width: 60%;
+    height: max-content;
+    transform: translate(0%,-35%);
+}
+
+.Text_Find h2 {
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+
+.Text_Find p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+
 
 /******
 Footer e tutto il suo correlato 
