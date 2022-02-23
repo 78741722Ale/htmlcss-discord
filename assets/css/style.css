@@ -1,0 +1,41 @@
+/********
+Tabella Colori 
+*********/
+
+:root {
+--Body : rgba(255, 255, 255, 0);      
+}
+
+
+/* Regola Generale
+**********/
+
+* {
+    bottom: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/********
+Commons
+***********/
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--Body);
+}
+
+/******
+Header e tutto il suo correlato 
+*********/
+
+
+/******
+Main e tutto il suo correlato 
+*********/
+
+
+/******
+Footer e tutto il suo correlato 
+*********/
