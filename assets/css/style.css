@@ -245,9 +245,26 @@ Main e tutto il suo correlato
     margin-bottom: 7%;
 }
 
+.lg_60_find {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 60%;
+}
+
+.lg_60_find img {
+    position: absolute;
+    width: 80%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    left: 40%;
+    top: 50%;
+    transform: translate(-50% , -50%);   
+}
+
 .Text_Find {
     top: 32%;
-    left: 25%;
+    left: 20%;
     position: absolute;
     width: 60%;
     height: max-content;
@@ -264,7 +281,34 @@ Main e tutto il suo correlato
     line-height: 1.5rem;
 }
 
+/* Sezione Fandom */
 
+.Fandom {
+    margin: auto;
+    position: relative;
+    width: 1200px;
+    height: 550px;
+    margin-bottom: 7%;
+}
+
+.Text_Fandom {
+    top: 35%;
+    left: 10%;
+    position: absolute;
+    width: 60%;
+    height: max-content;
+    transform: translate(0%,-35%);
+}
+
+.Text_Fandom h2 {
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+
+.Text_Fandom p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
 
 /******
 Footer e tutto il suo correlato 
