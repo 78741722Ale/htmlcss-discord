@@ -5,6 +5,7 @@ Tabella Colori
 :root {
 --Body : rgba(255, 255, 255, 0);
 --HeaderBody : rgb(3, 128, 245);      
+--Back : rgba(211, 211, 211, 0.4);         
 }
 
 
@@ -103,7 +104,6 @@ Header e tutto il suo correlato
     top: 20px;
     right: 0%;
     height: 30px;
-    line-height: 30px;
 }
 
 .btn_style {
@@ -156,7 +156,7 @@ Header e tutto il suo correlato
     text-align: center;
     line-height: 1.75rem;
     color: white;
-    font-size: 1rem;
+    font-size: 1.15rem;
 }
 
 .Text_Head h2 {
@@ -282,6 +282,12 @@ Main e tutto il suo correlato
 }
 
 /* Sezione Fandom */
+
+.Back {
+    background-color: var(--Back);
+    width: 100vw;
+    height: 550px;
+}
 
 .Fandom {
     margin: auto;
